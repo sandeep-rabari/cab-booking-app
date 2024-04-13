@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cab-booking-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/cab-booking
+    username: root
+    password:
+  jwt:
+    secretKey: "mysecretkeyforjwttokensmysecretkeyforjwttokensmysecretkeyforjwttokens"
